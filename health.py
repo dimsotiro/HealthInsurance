@@ -248,11 +248,11 @@ n_samples = 10
 
 # Generate random data for the features
 random_data = {
-    'age': np.random.randint(18, 65, size=n_samples),        # Random ages between 18 and 65
-    'sex': np.random.randint(0, 2, size=n_samples),          # Randomly 0 (male) or 1 (female)
-    'bmi': np.random.uniform(15, 40, size=n_samples),        # Random BMI between 15 and 40
-    'children': np.random.randint(0, 5, size=n_samples),     # Random number of children (0 to 4)
-    'smoker': np.random.randint(0, 2, size=n_samples),       # Randomly 0 (non-smoker) or 1 (smoker)
+    'age': np.random.randint(18, 65, size=n_samples),        
+    'sex': np.random.randint(0, 2, size=n_samples),          
+    'bmi': np.random.uniform(15, 40, size=n_samples),        
+    'children': np.random.randint(0, 5, size=n_samples),    
+    'smoker': np.random.randint(0, 2, size=n_samples),       
 }
 
 # Convert random data to a DataFrame
