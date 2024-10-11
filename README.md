@@ -5,3 +5,4 @@ I applied various statistical tests and machine learning models on the dataset t
 Hypothesis Testing,
 Supervised Machine Learning Models (Decision Trees),
 Visualizations (Boxplots, Histograms)
+(download .html and open in Browser to see the code with the output)
